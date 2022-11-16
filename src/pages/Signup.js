@@ -185,7 +185,7 @@ const Signup = () => {
                                     <div className="col-12 text-center mt-4">
                                     <button 
                                     className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6'
-                                    disabled={!email || !validName || !validPass || !checkMatch ? true : false}>
+                                    disabled={!validEmail || !validName || !validPass || !checkMatch ? true : false}>
                                         Submit
                                     </button>
                                     </div>

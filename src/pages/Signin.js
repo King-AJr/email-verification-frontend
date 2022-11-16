@@ -122,7 +122,7 @@ const Signin = () => {
                                     <div className="col-12 text-center mt-4">
                                     <button 
                                     className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6'
-                                    disabled={!email || !name || !password ? true : false}>
+                                    disabled={!email || !password ? true : false}>
                                         Submit
                                     </button>
                                     </div>
